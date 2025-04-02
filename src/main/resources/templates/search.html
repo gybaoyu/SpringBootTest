@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+</head>
+<body>
+<ul>
+    <li th:each="video : ${videos}">
+        <strong>name:</strong> <span th:text="${video.name}"></span><br/>
+        <strong>description:</strong> <span th:text="${video.description}"></span>
+    </li>
+</ul>
+</body>
+</html>

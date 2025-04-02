@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    <ul>
+        <li th:each="video : ${videos}">
+            <strong>name:</strong> <span th:text="${video.name}"></span><br/>
+            <strong>description:</strong> <span th:text="${video.description}"></span>
+        </li>
+    </ul>
+    <form action="/new-video" method="post">
+        <label>
+            input name:<input type="text" name="name"><br>
+            input description:<input type="text" name="description">
+        </label><!--name="name"即参数名为name-->
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <div>search: </div>
+    <form action="/multi-field-search" method="post">
+        <label>
+            input name:<input type="text" name="name"><br>
+            input description:<input type="text" name="description">
+        </label>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
