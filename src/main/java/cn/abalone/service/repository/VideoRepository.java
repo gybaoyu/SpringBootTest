@@ -1,4 +1,4 @@
-package cn.abalone.repository;
+package cn.abalone.service.repository;
 
 import cn.abalone.entity.Video;
 import org.springframework.data.domain.Sort;

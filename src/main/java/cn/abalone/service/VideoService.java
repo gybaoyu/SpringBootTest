@@ -1,15 +1,12 @@
 package cn.abalone.service;
 
 import cn.abalone.entity.Video;
-import cn.abalone.record.VideoSearch;
-import cn.abalone.repository.VideoRepository;
-import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
+import cn.abalone.entity.pojo.VideoSearch;
+import cn.abalone.service.repository.VideoRepository;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 

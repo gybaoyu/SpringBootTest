@@ -1,4 +1,4 @@
-package cn.abalone.record;
+package cn.abalone.entity.pojo;
 
 public record VideoSearch (String name, String description){
 }

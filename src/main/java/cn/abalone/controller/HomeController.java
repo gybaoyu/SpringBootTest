@@ -1,7 +1,7 @@
 package cn.abalone.controller;
 
 import cn.abalone.entity.Video;
-import cn.abalone.record.VideoSearch;
+import cn.abalone.entity.pojo.VideoSearch;
 import cn.abalone.service.VideoService;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Controller;
@@ -9,13 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
 import java.util.List;
-
-import static cn.abalone.tools.JsonUtils.convertToJson;
 
 @Controller
 public class HomeController {
