@@ -32,7 +32,7 @@
 
 除此以外，需要注意的是，当你更新完pom.xml后，你会发现idea会显示一个这样的图标
 
-<img src="C:\Users\Abalone\AppData\Roaming\Typora\typora-user-images\image-20250402160429361.png" alt="image-20250402160429361" style="zoom:45%;" />
+<img src="./src/images/image-20250402182409272.png" style="zoom:45%;" />
 
 点击此处的图标之后会idea会根据你pom.xml里的更改对项目进行更新，因此当你更改了pom.xml之后，不要忘记点击这个按钮
 
